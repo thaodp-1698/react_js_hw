@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ReactJS - Home work 1</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+      const el = <div>
+        <header style={{border: "1px solid black", padding: "0 20px 0 20px"}}>Header</header>
+        <main style={{border: "1px solid black", padding: "0 20px 60px 20px"}}>Body</main>
+      </div>;
+
+      ReactDOM.render(
+        el,
+        document.getElementById('root')
+      );
+    </script>
+  </body>
+</html>
